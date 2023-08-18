@@ -3,6 +3,8 @@ import './Contact.css';
 import Rotate from 'react-reveal/Rotate';
 import LightSpeed from 'react-reveal/LightSpeed';
 import {BsLinkedin, BsGithub, BsInstagram} from 'react-icons/bs';
+import {BiSolidPhoneCall, BiLogoGmail} from 'react-icons/bi';
+
 const Contact = () => {
   const handleLinkedInClick = () => {
     window.open('https://www.linkedin.com/in/daksh-kesarwani-9173691b0/', '_blank');
@@ -33,35 +35,28 @@ const Contact = () => {
               <Rotate>
               <div className='row'>
                 <div className='card2 d-flex card border-0 px-4 py-5'>
-                    <div className='row'>
-                       <h6>Contact With 
+                  <div className='row'>
+                       <h6 className='con'>Contact With 
                         <BsLinkedin color='blue' size={30} className='ms-2' onClick={handleLinkedInClick} /> 
                         <BsGithub color='black' size={30} className='ms-2' onClick={handleGithubClick} /> 
                        <BsInstagram color='red' size={30} className='ms-2' onClick= {handleInstaClick} />
                        </h6>
-                    </div>
-                    <div className='row px-3 mb-4'>
+                  </div>
+                  <div className='row px-3 mb-4'>
                         <div className='line' />
-                            <small className='or test-center'>OR</small>
-                    <div className='line' />
+                            <small className='or test-center con'>OR</small>
+                        <div className='line' />
+                  </div>
+                  <div className='row px-3'>
+                    <h4 className='con'><BiSolidPhoneCall size ={30} className='ms-2' /> 6387971174 </h4>  
+                  </div>    
+                  <div className='row px-3'>
+                        <h6 className='con'><BiLogoGmail size ={30} className='ms-2'/> : dakshkesarwanijasra@gmail.com</h6>
+                  </div>  
+                </div>
               </div>
-               <div className='row px-3'>
-                    <input type='text' name='name' placeholder='Enter Your Name' className='mb-3' />
-               </div>    
-               <div className='row px-3'>
-               <input type='email' name='email' placeholder='Enter Your Email' className='mb-3' />
-               </div>    
-               <div className='row px-3'>
-               <textarea type='text' name='msg' placeholder='Write Your Message' className='mb-3' />
-               </div>     
-               <div className='row px-3'>
-               <button  className='button' type='submit'>SEND MESSAGE</button>
-               </div>     
-               </div>
-            </div>
             </Rotate>
           </div>
-          
         </div>
       </div>
     </div>

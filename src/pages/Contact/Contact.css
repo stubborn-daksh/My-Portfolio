@@ -68,7 +68,9 @@
     color: white;
  }
 
-
+.con{
+    color:black;
+}
 
  @media (max-width:600px){
     .contact{
@@ -80,8 +82,9 @@
         margin: 0;
     }
     .contact .card2 h6{
-        display: flex;
+         display: flex;
          align-items: center;
          justify-content: center;
     }
+    
  }
