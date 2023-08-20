@@ -10,7 +10,7 @@ const Project = () => {
       <div className='container project' id='project'>
       <h2 className='col-12 mt-3 mb-1 text-center text-uppercase'>TOP RECENT PROJECTS</h2>
           <hr />
-          <p className='pb-3 text-center'>👉 Here Are My Top 3 Recent Projects with Github Link and Source Code.
+          <p className='pb-3 text-center'>👉 Here Are My Top 6 Recent Projects with Github Link and Source Code.
           </p>
           <div className='row' id='ads'>
             <Spin>
