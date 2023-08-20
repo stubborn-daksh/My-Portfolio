@@ -1,6 +1,8 @@
 import React from 'react';
 import './Project.css';
 import Spin from 'react-reveal/Spin';
+import My_images from '../../assets/images/profilePicture.png';
+import chat_app from '../../assets/images/chat.png';
 
 const Project = () => {
   return (
@@ -67,6 +69,62 @@ const Project = () => {
                         <h5 className='text-uppercase'>Google Clone</h5>
                       </div>
                       <a href='https://gilded-scone-2daf43.netlify.app/' target={'blank'}  className='ad-btn'>View</a>
+                    </div>
+                 </div>
+             </div>
+             </Spin>
+          </div>
+          <div className='row' id='ads'>
+            <Spin>
+             <div className='col-md-4'>
+                 <div className='card rounded'> 
+                    <div className='card-image'>
+                      <span className='card-notify-badge'>Frontend</span>
+                      <img src='https://apptraitsolutions.com/wp-content/uploads/2021/01/C88IZyEo7g-1.jpg' alt='project1' />
+                    </div>
+                    <div className='card-image-overly m-auto mt-3'>
+                      <span className='card-detail-badge'>React.js</span>
+                    </div>
+                    <div className='card-body text-center'>
+                      <div className='ad-title m-auto'>
+                        <h5 className='text-uppercase'>Quiz App</h5>
+                      </div>
+                      <a href='https://github.com/stubborn-daksh/Quiz-App' className='ad-btn' target={'blank'} >View</a>
+                    </div>
+                 </div>
+             </div>
+             <div className='col-md-4'>
+                 <div className='card rounded'> 
+                    <div className='card-image'>
+                      <span className='card-notify-badge'>Frontend</span>
+                      <img src={My_images} alt='project5' />
+                    </div>
+                    <div className='card-image-overly m-auto mt-3'>
+                      <span className='card-detail-badge'>React.js</span>
+                    </div>
+                    <div className='card-body text-center'>
+                      <div className='ad-title m-auto'>
+                        <h5 className='text-uppercase'>Portfolio</h5>
+                      </div>
+                      <a href='https://github.com/stubborn-daksh/My-Portfolio/tree/master' className='ad-btn' target={'blank'} >View</a>
+                    </div>
+                 </div>
+             </div>
+             <div className='col-md-4'>
+                 <div className='card rounded'> 
+                    <div className='card-image'>
+                      <span className='card-notify-badge'>Backend</span>
+                      <img src={chat_app} alt='project3' />
+                    </div>
+                    <div className='card-image-overly m-auto mt-3'>
+                      <span className='card-detail-badge'>Node.js</span>
+                      <span className='card-detail-badge'>Express.js</span>
+                    </div>
+                    <div className='card-body text-center'>
+                      <div className='ad-title m-auto'>
+                        <h5 className='text-uppercase'>Static Group Chat Application</h5>
+                      </div>
+                      <a href='https://github.com/stubborn-daksh/static-group-chat-application' target={'blank'}  className='ad-btn'>View</a>
                     </div>
                  </div>
              </div>

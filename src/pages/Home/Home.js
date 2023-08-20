@@ -3,7 +3,7 @@ import {useTheme } from '../../context/ThemeContext';
 import './home.css';
 import Fade from 'react-reveal/Fade';
 import Typewriter from 'typewriter-effect';
-import Resume from '../../assets/docs/daksh_resume_6387971174.pdf';
+import Resume from '../../assets/docs/daksh_resume.pdf';
 import {BsFillMoonFill, BsFillSunFill, BsWhatsapp} from 'react-icons/bs';
 
 const Home = () => {
